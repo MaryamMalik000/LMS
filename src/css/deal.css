@@ -1,0 +1,140 @@
+@keyframes changeColors {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+  
+  @keyframes slideUpDown {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+  .heading {
+    text-align: center;
+    margin-bottom: 30px;
+    animation: slideUpDown 5s ease infinite;
+  }
+  
+  .heading h2 {
+    font-size: 36px;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .heading p {
+    font-size: 18px;
+  }
+  
+  .free-course-deal {
+    padding: 60px 0;
+    background-color: #f0f0f0;
+    background-image: linear-gradient(45deg, #e4e4e4, #f0f0f0, #f0f0f0, #e4e4e4);
+    background-size: 400% 400%;
+    animation: changeColors 10s ease infinite;
+  }
+  
+  
+  .countdown-timer {
+    text-align: center;
+  }
+  
+  .timer {
+    font-size: 36px;
+    font-weight: bold;
+    color: #007bff;
+    margin-top: 20px;
+  }
+  
+  .registration-form {
+    width: 350px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .registration-form h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    background-color:  #393c3d;
+    color: #faf5f5;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #93969a;
+    color: #f0f0f0;
+  }
+  .free-course-deal {
+    padding: 60px 0;
+    background-color: #f9f9f9;
+  }
+  
+  .heading {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .heading h2 {
+    font-size: 36px;
+    font-weight: bold;
+  }
+  
+  .heading p {
+    font-size: 18px;
+  }
+  
+  .countdown-timer {
+    text-align: center;
+  }
+  
+  .timer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: rgba(21, 24, 26, 0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
